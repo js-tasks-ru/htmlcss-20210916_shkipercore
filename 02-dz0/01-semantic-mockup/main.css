@@ -1,0 +1,42 @@
+header {
+    background: red;
+    text-align: center;
+}
+
+body {
+    color:white;
+}
+
+nav {
+    background: orange;
+    height: 40px;
+    padding: 5px;
+}
+
+main {
+    background: limegreen;
+    padding: 20px;
+}
+
+article {
+    background: dodgerblue;
+}
+
+footer {
+    background: mediumpurple;
+    text-align: center;
+}
+
+ul#menu li{
+    display:inline;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin:0;
+}
+
+h2 {
+    margin:0;
+}
