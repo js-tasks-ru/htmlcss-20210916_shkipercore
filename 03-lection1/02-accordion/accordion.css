@@ -3,7 +3,7 @@
 }
 
 .accordion__item {
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--border);
     box-sizing: border-box;
     border-radius: 8px;
     margin-bottom: 8px;
@@ -21,7 +21,7 @@
     outline: none;
     font-size: 16px;
     line-height: 24px;
-    color: #212429;
+    color: var(--accordion-font);
 }
 
 .accordion__text {
