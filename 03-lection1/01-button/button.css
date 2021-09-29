@@ -10,56 +10,55 @@
     text-align: center;
     height: 48px;
     width: 182px;
-    left: 0px;
-    top: 0px;
     border-radius: 8px;
     cursor:pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    color: var(--white);
+    box-sizing: border-box;
 }
 
 .button_primary {
-    color: #FFFFFF;
-    background: #4263EB;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    background: var(--blue-2);
 }
 
 .button_secondary {
-    color: #FFFFFF;
-    background: #7048E8;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    background: var(--purple);
 }
 
 .button_alternate {
-    background: white;
-    border: 1px solid #ACB5BD;
-    box-sizing: border-box;
-    color: #495057;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
 }
 
 .button_primary:hover {
-    background: #2342C0;
+    background: var(--blue-3);
 }
 
 .button_secondary:hover {
-    background: #5028C6;
+    background:  var(--purple-2);
 }
 
 .button_alternate:hover {
-    border: 1px solid #212429;
+    border: 1px solid  var(--black);
     box-sizing: border-box;
 }
 
 .button_primary:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    cursor: none;
+    pointer-events: none;
 }
 
 .button_secondary:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    cursor: none;
+    pointer-events: none;
 }
 
 .button_alternate:disabled {
     box-sizing: border-box;
     opacity: 0.5;
-    cursor: not-allowed;
+    cursor: none;
+    pointer-events: none;
 }
