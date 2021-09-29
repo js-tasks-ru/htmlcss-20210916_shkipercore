@@ -22,3 +22,5 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+@import url("https://yarnpkg.com/en/package/normalize.css");
