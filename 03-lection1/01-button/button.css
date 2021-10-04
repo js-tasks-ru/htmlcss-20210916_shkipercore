@@ -41,24 +41,19 @@
 
 .button_alternate:hover {
     border: 1px solid  var(--border-hover);
-    box-sizing: border-box;
 }
 
 .button_primary:disabled {
     opacity: 0.5;
-    cursor: none;
     pointer-events: none;
 }
 
 .button_secondary:disabled {
     opacity: 0.5;
-    cursor: none;
     pointer-events: none;
 }
 
 .button_alternate:disabled {
-    box-sizing: border-box;
     opacity: 0.5;
-    cursor: none;
     pointer-events: none;
 }
