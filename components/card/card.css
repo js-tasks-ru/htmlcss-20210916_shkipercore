@@ -1,0 +1,6 @@
+.card {
+    height: 367px;
+    display: inline-block;
+    background: cornflowerblue;
+    border-radius: 10px;
+}

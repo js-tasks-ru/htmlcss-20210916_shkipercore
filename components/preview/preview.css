@@ -1,0 +1,8 @@
+.preview {
+    height: 400px;
+    background: darkgrey;
+    font-size: 0;
+}
+.preview__card {
+    width: 33.33%;
+}
